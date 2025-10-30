@@ -1,10 +1,12 @@
-import React from "react";
-import ReactDOM from "react-dom/client";
-import App from "./App.jsx";
-import "./index.css";
+import React from 'react';
+import { SafeAreaView, StatusBar } from 'react-native';
+import HomeScreen from './src/screens/HomeScreen';
 
-ReactDOM.createRoot(document.getElementById("root")).render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+export default function App() {
+  return (
+    <SafeAreaView style={{ flex: 1, backgroundColor: '#fff' }}>
+      <StatusBar barStyle="dark-content" backgroundColor="#fff" />
+      <HomeScreen />
+    </SafeAreaView>
+  );
+}
