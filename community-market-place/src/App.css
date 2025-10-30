@@ -1,11 +1,12 @@
 body {
   margin: 0;
-  background-color: #0e0f12;
-  color: white;
+  background-color: #0f172a;
   font-family: "Poppins", sans-serif;
+  color: #f8fafc;
 }
 
-.App {
+.app-container {
   text-align: center;
+  background-color: #0f172a;
   min-height: 100vh;
 }

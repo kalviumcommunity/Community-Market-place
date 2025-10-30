@@ -1,17 +1,17 @@
 import React from "react";
 import "./Header.css";
 
-const Header = () => {
+function Header() {
   return (
     <header className="header">
-      <h1 className="logo">Community Marketplace</h1>
+      <h1 className="header-title">Community Marketplace</h1>
       <nav className="nav-links">
         <a href="#">Home</a>
+        <a href="#">Categories</a>
         <a href="#">Profile</a>
-        <a href="#">Cart</a>
       </nav>
     </header>
   );
-};
+}
 
 export default Header;
